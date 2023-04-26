@@ -18,7 +18,7 @@ print("\033[;33;1;3m-\033[0m" * 70)
 print("\033[;1;3mLet us start our mission for today!\033[0m".center(81))
 print("\033[;33;1;3m-\033[0m" * 70)
 
-#To start writing, open the "mylife.txt" file.
+#To start writing, open the "mylife.txt" file. The file will be created if it does not already exist.
 with open("mylife.txt", "w") as file:
 
     #Loop until the user decides to end it.
