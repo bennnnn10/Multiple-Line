@@ -21,3 +21,4 @@ with open("mylife.txt", "w") as file:
             break
 
 #Close the file
+file.close()
