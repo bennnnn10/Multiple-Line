@@ -7,7 +7,8 @@ with open("mylife.txt", "w") as file:
 
     #Loop until the user decides to end it.
     while True:
-        #Request to the user to enteer a line of text.
+        #Request to the user to enter a line of text.
+        line = input("Enter line: ")
         #Add the text line, then a new line character, to the file.
         #Ask the user if they want to enter another line of text.
         #Continue the loop if the user(s) enter "y" to prompt for another line of text.
