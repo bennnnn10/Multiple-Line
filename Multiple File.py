@@ -3,6 +3,8 @@
 #Object-Oriented Programming
 
 #To start writing, open the "mylife.txt" file.
+with open("mylife.txt", "w") as file:
+
     #Loop until the user decides to end it.
         #Request to the user to enteer a line of text.
         #Add the text line, then a new line character, to the file.
