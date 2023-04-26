@@ -19,4 +19,5 @@ with open("mylife.txt", "w") as file:
         #Break the loop if the user types "n" to finish the program.
         if users_choice.lower() == "n":
             break
+
 #Close the file
