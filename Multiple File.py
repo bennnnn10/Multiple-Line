@@ -14,5 +14,7 @@ with open("mylife.txt", "w") as file:
         #Ask the user if they want to enter another line of text.
         users_choice = input("Are there more lines y/n? ")
         #Continue the loop if the user(s) enter "y" to prompt for another line of text.
+        if users_choice.lower() == "y":
+            continue
         #Break the loop if the user types "n" to finish the program.
 #Close the file
