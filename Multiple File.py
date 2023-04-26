@@ -10,6 +10,7 @@ with open("mylife.txt", "w") as file:
         #Request to the user to enter a line of text.
         line = input("Enter line: ")
         #Add the text line, then a new line character, to the file.
+        file.write(f" {line}\n")
         #Ask the user if they want to enter another line of text.
         #Continue the loop if the user(s) enter "y" to prompt for another line of text.
         #Break the loop if the user types "n" to finish the program.
